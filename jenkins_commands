@@ -1,0 +1,20 @@
+https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu
+
+
+Installation
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+Upgrade
+Once installed like this, you can update to the later version of Jenkins (when it comes out) by running the following commands:
+sudo apt-get update
+sudo apt-get install jenkins
+
+Email integration in jenkins
+
+Pls check the Email& IRC Integration from ppt
+localhost:8080-> configure system->email notfication(  if you have any issue please c)
+
+configure in particular project
+<any project> ->go to configure-> post build action->send the email for every unsable bill
