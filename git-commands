@@ -20,3 +20,4 @@ git branch -r
 git branch -a
 gitk hello.txt
 git fetch
+git stash list
