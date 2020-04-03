@@ -1,0 +1,16 @@
+systemctl status sshd
+ssh-keygen
+cd .ssh/
+cat id_rsa.pub 
+Cd framework/
+cd simplilearn-git/
+git status
+git init
+git remote add origin git@github.com:ganeshmouli/simplilearn-git.git
+git status
+cat >> testing 
+cat testing 
+git add *
+git commit -m "creating the fiel and adding the text"
+git  git remote add origin git@github.com:ganeshmouli/simplilearn-git.git
+git push -u origin master
