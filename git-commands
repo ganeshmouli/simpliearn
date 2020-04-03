@@ -14,3 +14,4 @@ git add *
 git commit -m "creating the fiel and adding the text"
 git  git remote add origin git@github.com:ganeshmouli/simplilearn-git.git
 git push -u origin master
+git pull origin master
