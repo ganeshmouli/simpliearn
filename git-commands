@@ -21,3 +21,6 @@ git branch -a
 gitk hello.txt
 git fetch
 git stash list
+git cherry-pick commit id
+git reset commitid
+git revert commitid
